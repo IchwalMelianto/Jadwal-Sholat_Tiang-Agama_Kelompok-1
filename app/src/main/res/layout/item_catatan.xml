@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_item"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/semiTransparentColor">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tid"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:text="ID: "
+                android:textColor="@color/sand2"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_semi_bold"/>
+
+            <TextView
+                android:layout_below="@+id/ttt"
+                android:layout_toRightOf="@+id/tid"
+                android:id="@+id/tv_item_id"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/sand2"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal : "
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/sand2"
+                android:fontFamily="@font/montserrat_semi_bold"/>
+
+            <TextView
+                android:id="@+id/tv_item_tanggal"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tanggal"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/sand2"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Surat : "
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/sand2"
+                android:fontFamily="@font/montserrat_semi_bold"/>
+
+            <TextView
+                android:id="@+id/tv_item_namasurat"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nama surat"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/sand2"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Catatan : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/sand2"
+                android:fontFamily="@font/montserrat_semi_bold"/>
+
+            <TextView
+                android:id="@+id/tv_item_catatan"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="catatan"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/sand2"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_light"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
